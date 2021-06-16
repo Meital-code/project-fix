@@ -4,8 +4,9 @@ const Person =require('../controllers/personController')
 
 router.post('/CreatePerson',Person.CreatePerson)
 
-router.get('/ShowPerson/:id',Person.ShowPerson)
-// router.get('./ShowAllPersons',Person.ShowAllPersons)
+router.post('/ShowPerson',Person.ShowPerson)
+// router.get('/ShowPerson/:id',Person.ShowPerson)
+router.get('/GetAllPersons',Person.GetAllPersons)
 
 
 module.exports=router;

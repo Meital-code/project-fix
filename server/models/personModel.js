@@ -2,10 +2,10 @@ const mongoose=require('mongoose')
 const personSchema=mongoose.Schema({
     
      name: {
-         type:String,default:"Name"
+         type:String,
     } ,  
      family: {
-        type:String,default:"Family"
+        type:String,
    } ,
     
    age:{ type:Number
